@@ -1,4 +1,4 @@
 const config = {
-  BASE_URL: "http://localhost:5001",
+  BASE_URL: "https://bloa-app.onrender.com/",
 };
 export default config;
