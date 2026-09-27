@@ -41,17 +41,11 @@ A modern, full-stack web application built using the **MERN** stack (MongoDB, Ex
 
 | Login Page | Signup Page |
 | :---: | :---: |
-| ![Login Page](<img width="959" height="446" alt="Screenshot 2026-09-27 190859" src="https://github.com/user-attachments/assets/898f54d2-b8fa-4c60-a128-76ee1b8ba7c6" />
-) | ![Signup Page](<img width="948" height="438" alt="Screenshot 2026-09-27 190920" src="https://github.com/user-attachments/assets/dc20c691-388e-43a0-a17a-08a004180358" />
-) |
+| ![Login Page](https://github.com/user-attachments/assets/898f54d2-b8fa-4c60-a128-76ee1b8ba7c6) | ![Signup Page](https://github.com/user-attachments/assets/dc20c691-388e-43a0-a17a-08a004180358) |
 
 | All Blogs Feed | My Blogs (Edit / Delete) | Add New Blog |
 | :---: | :---: | :---: |
-| ![All Blogs](<img width="950" height="449" alt="Screenshot 2026-09-27 190755" src="https://github.com/user-attachments/assets/58c3bd99-5fa4-433d-bc21-581bb8e3de26" />
-) | ![My Blogs](<img width="949" height="455" alt="Screenshot 2026-09-27 190819" src="https://github.com/user-attachments/assets/8a986f02-7b66-4ac9-84db-ec92e07ba843" />
-) | ![Add Blog](<img width="953" height="451" alt="Screenshot 2026-09-27 190841" src="https://github.com/user-attachments/assets/69bf9476-337c-4832-b794-9e2c6495c8f3" />
-) |
-
+| ![All Blogs](https://github.com/user-attachments/assets/58c3bd99-5fa4-433d-bc21-581bb8e3de26) | ![My Blogs](https://github.com/user-attachments/assets/8a986f02-7b66-4ac9-84db-ec92e07ba843) | ![Add Blog](https://github.com/user-attachments/assets/69bf9476-337c-4832-b794-9e2c6495c8f3) |
 
 ---
 
