@@ -1,32 +1,50 @@
 const express = require("express");
+const helmet = require("helmet");
+const cors = require("cors");
+
 const userRouter = require("./routes/user-routes");
 const blogRouter = require("./routes/blog-routes");
-const helmet = require("helmet");
+
 require("./config/db");
-const cors = require("cors");
 
 const app = express();
 
-app.use(cors());
+// ===============================
+// Middleware
+// ===============================
 
-//setting helmet middleware
-app.use(helmet(
-  {
+app.use(
+  cors({
+    origin: "*",
+  })
+);
+
+app.use(
+  helmet({
     contentSecurityPolicy: false,
     crossOriginEmbedderPolicy: false,
-  }
-));
+  })
+);
 
-app.set("view engine", "ejs");
 app.use(express.json());
+
+// ===============================
+// Routes
+// ===============================
 
 app.use("/api/users", userRouter);
 app.use("/api/blogs", blogRouter);
 
-app.use("/api", (req, res, next) => {
-  res.send("hello");
+app.get("/api", (req, res) => {
+  res.send("Blog API is running successfully 🚀");
 });
 
-//define port
+// ===============================
+// Port
+// ===============================
 
-app.listen(5001, () => console.log("app started at 5001..."));
+const PORT = process.env.PORT || 5001;
+
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Server running on port ${PORT}`);
+});
